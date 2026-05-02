@@ -5,17 +5,18 @@ import { fadeUp } from "../utils/animations";
 
 export default function Hero({ hero }) {
   return (
-    <section id="hero" className="relative px-5 pb-20 pt-16 sm:pt-24">
+    <section id="hero" className="relative px-5 pb-16 pt-14 sm:pb-20 sm:pt-20">
       <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
         <motion.div initial="hidden" animate="visible" transition={{ duration: 0.65 }} variants={fadeUp}>
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-teal-300/25 bg-teal-300/8 px-4 py-2 text-sm text-teal-200">
+          <div className="mb-6 inline-flex items-center gap-3 rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] px-4 py-2 font-mono text-xs uppercase tracking-[0.12em] text-[var(--color-teal)] shadow-sm">
+            <span className="signal-dot" />
             <Sparkles size={16} />
             {hero.role}
           </div>
-          <h1 className="max-w-4xl text-4xl font-semibold leading-tight text-white sm:text-6xl">
+          <h1 className="max-w-4xl font-display text-[clamp(2.6rem,5.8vw,4.8rem)] font-bold uppercase leading-[1.02] text-[var(--color-ink)]">
             {hero.headline}
           </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-[var(--color-ink-muted)]">
             {hero.summary}
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -34,22 +35,22 @@ export default function Hero({ hero }) {
           transition={{ duration: 0.75, delay: 0.1 }}
           className="relative"
         >
-          <div className="rounded-lg border border-white/10 bg-white/[0.045] p-5 shadow-glow backdrop-blur">
+          <div className="card pcb-dots p-5">
             <div className="mb-5 flex items-center justify-between">
               <div>
-                <p className="text-sm text-slate-400">Current Focus</p>
-                <p className="font-medium text-white">Industrial Systems to Digital Infrastructure</p>
+                <p className="font-mono text-xs uppercase tracking-[0.12em] text-[var(--color-teal)]">Current Focus</p>
+                <p className="mt-1 font-display text-2xl font-semibold uppercase leading-tight text-[var(--color-ink)]">Industrial Systems to AI Automation</p>
               </div>
-              <Zap className="text-teal-300" />
+              <Zap className="text-[var(--color-amber)]" />
             </div>
             <div className="grid gap-3">
               {hero.focusAreas.map((area) => (
-                <div key={area.label} className="rounded-md border border-white/10 bg-black/18 p-4">
+                <div key={area.label} className="rounded-md border border-[var(--color-border)] bg-[var(--color-surface)] p-4">
                   <div className="flex items-center justify-between gap-4">
-                    <p className="font-medium text-white">{area.label}</p>
-                    <ArrowUpRight className="h-4 w-4 text-teal-300" />
+                    <p className="font-mono text-xs font-medium uppercase tracking-[0.12em] text-[var(--color-ink)]">{area.label}</p>
+                    <ArrowUpRight className="h-4 w-4 text-[var(--color-amber)]" />
                   </div>
-                  <p className="mt-1 text-sm text-slate-400">{area.detail}</p>
+                  <p className="mt-1 text-sm text-[var(--color-ink-muted)]">{area.detail}</p>
                 </div>
               ))}
             </div>

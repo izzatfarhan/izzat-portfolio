@@ -4,10 +4,10 @@ import Section from "./Section";
 
 export default function Contact({ contact }) {
   return (
-    <Section id="contact" eyebrow="Contact" title="Open to IT, DevOps, Cloud, AI, and IT-OT integration opportunities.">
+    <Section id="contact" eyebrow="Contact" title="Open to AI automation, IT-OT, and electrical automation opportunities.">
       <div className="card">
         <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
-          <p className="max-w-2xl leading-8 text-slate-300">
+          <p className="max-w-2xl leading-8 text-[var(--color-ink-muted)]">
             {contact.summary}
           </p>
           <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">

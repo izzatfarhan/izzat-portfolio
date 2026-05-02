@@ -6,7 +6,7 @@ export default function Certifications({ certifications }) {
     <Section
       id="certifications"
       eyebrow="Certifications"
-      title="Focused development aligned with cloud, DevOps, software, and AI engineering."
+      title="Focused development aligned with automation, intelligent workflows, data, and electrical engineering."
     >
       <div className="grid gap-4 md:grid-cols-2">
         {certifications.map((certification) => (

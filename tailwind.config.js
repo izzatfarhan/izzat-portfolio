@@ -3,10 +3,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+        sans: ["DM Sans", "ui-sans-serif", "system-ui", "sans-serif"],
+        display: ["Barlow Condensed", "ui-sans-serif", "system-ui", "sans-serif"],
+        mono: ["JetBrains Mono", "ui-monospace", "SFMono-Regular", "monospace"],
       },
       boxShadow: {
-        glow: "0 0 44px rgba(45, 212, 191, 0.12)",
+        glow: "0 10px 30px rgba(26, 28, 30, 0.12), 0 4px 8px rgba(26, 28, 30, 0.06)",
       },
     },
   },

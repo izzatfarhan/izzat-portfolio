@@ -1,9 +1,8 @@
-import { Bot, BrainCircuit, Cloud, Code2, Cpu, ServerCog, ShieldCheck, Workflow } from "lucide-react";
+import { Bot, BrainCircuit, Code2, Cpu, ServerCog, ShieldCheck, Workflow } from "lucide-react";
 
 const iconMap = {
   Bot,
   BrainCircuit,
-  Cloud,
   Code2,
   Cpu,
   ServerCog,

@@ -1,9 +1,9 @@
 {
   "hero": {
     "name": "Muhammad Izzat Farhan",
-    "role": "Electrical & Automation Engineer | IT-OT Integration | Cloud, DevOps & AI",
-    "headline": "Engineering reliable industrial and digital systems across automation, cloud infrastructure, DevOps, and AI.",
-    "summary": "Electrical and Automation Engineer with hands-on experience in industrial control systems, IT-OT integration, cloud infrastructure, data workflows, and automation. I bring production-focused engineering discipline into software, DevOps, cloud, and AI engineering roles.",
+    "role": "Electrical & Automation Engineer | IT-OT Integration | AI Automation",
+    "headline": "Engineering Intelligent Systems with Automation & AI",
+    "summary": "Electrical and Automation Engineer with hands-on experience in industrial control systems, IT-OT integration, IoT data workflows, and AI-assisted automation. I combine production engineering discipline with practical AI automation skills to build reliable systems that connect machines, data, and decisions.",
     "primaryCta": {
       "label": "View Projects",
       "href": "#projects"
@@ -14,30 +14,30 @@
     },
     "focusAreas": [
       {
-        "label": "Automation",
+        "label": "Electrical Systems",
+        "detail": "LV design, panels, wiring, safety"
+      },
+      {
+        "label": "Industrial Automation",
         "detail": "PLC/HMI, controls, commissioning"
       },
       {
-        "label": "IT-OT",
-        "detail": "IoT data, dashboards, system integration"
+        "label": "IT-OT Integration",
+        "detail": "IoT data, dashboards, system interfaces"
       },
       {
-        "label": "Cloud",
-        "detail": "AWS, Terraform, Docker, monitoring"
-      },
-      {
-        "label": "AI & Data",
-        "detail": "Python, ML workflows, AI automation"
+        "label": "AI Automation",
+        "detail": "Python, LLM workflows, intelligent agents"
       }
     ]
   },
   "about": {
     "eyebrow": "About Me",
-    "title": "Industrial automation experience with growing software, cloud, and AI engineering capability.",
+    "title": "Electrical engineering foundation with a focused pivot into AI automation.",
     "highlights": [
       "My foundation is electrical and industrial automation, including PLC/HMI systems, conveyor automation, LV electrical systems, control panels, commissioning, troubleshooting, and production support.",
       "I have practical IT-OT integration experience through scripting, interface configuration, IoT data pipelines, Node-RED workflows, dashboards, and industrial controller communication.",
-      "I am expanding this engineering foundation into backend development, cloud infrastructure, DevOps automation, observability, and applied AI workflows."
+      "I am now focusing my career direction on AI automation: building intelligent workflows, agent-based systems, data-driven dashboards, and practical tools that improve engineering and operational decision-making."
     ]
   },
   "skills": [
@@ -54,15 +54,15 @@
       ]
     },
     {
-      "category": "Cloud & DevOps",
-      "icon": "Cloud",
+      "category": "AI Automation",
+      "icon": "BrainCircuit",
       "items": [
-        "AWS EC2",
-        "Terraform",
-        "Docker",
-        "GitHub Actions",
-        "Linux",
-        "Bash"
+        "LLM APIs",
+        "n8n",
+        "RAG workflows",
+        "Prompt design",
+        "Agent workflows",
+        "Process automation"
       ]
     },
     {
@@ -84,37 +84,14 @@
         "MySQL",
         "PostgreSQL",
         "InfluxDB",
-        "Prometheus",
         "Grafana",
         "Power BI",
         "KNIME",
-        "n8n"
+        "Excel"
       ]
     }
   ],
   "projects": [
-    {
-      "title": "Production Cloud Infrastructure",
-      "summary": "Built and deployed a cloud-based FastAPI application on AWS using Terraform, Docker, GitHub Actions, Prometheus, Grafana, and Linux automation.",
-      "impact": "Improved deployment repeatability, infrastructure visibility, and service reliability through CI/CD, monitoring, and self-recovery scripts.",
-      "stack": [
-        "AWS EC2",
-        "Terraform",
-        "Docker",
-        "FastAPI",
-        "GitHub Actions",
-        "Prometheus",
-        "Grafana",
-        "Linux"
-      ],
-      "media": {
-        "type": "image",
-        "src": "",
-        "alt": "Production Cloud Infrastructure project media"
-      },
-      "githubUrl": "https://github.com/your-username/production-cloud-infrastructure",
-      "demoUrl": "#production-cloud-infrastructure-demo"
-    },
     {
       "title": "AI Automation Agent System",
       "summary": "Built AI-driven automation workflows using n8n, LLM APIs, webhooks, and RAG techniques for multi-step business process automation.",
@@ -138,14 +115,14 @@
     {
       "title": "IoT Smart Distribution Board",
       "summary": "Developed an IoT-based smart distribution board for real-time monitoring and remote control of electrical systems.",
-      "impact": "Awarded 1st Runner-Up at UPNM Engineering Open Day 2024 and reduced manual intervention through cloud-connected monitoring.",
+      "impact": "Awarded 1st Runner-Up at UPNM Engineering Open Day 2024 and reduced manual intervention through connected monitoring and dashboard visibility.",
       "stack": [
         "IoT",
         "MQTT",
         "Sensors",
-        "Cloud",
         "Dashboard",
-        "Electrical Design"
+        "Electrical Design",
+        "Data Monitoring"
       ],
       "media": {
         "type": "image",
@@ -174,25 +151,6 @@
       },
       "githubUrl": "https://github.com/your-username/industrial-automation-projects",
       "demoUrl": "#industrial-automation-projects-demo"
-    },
-    {
-      "title": "Flight Delay Prediction Model",
-      "summary": "Developed a machine learning model using Python to predict flight delays from weather and operational datasets.",
-      "impact": "Applied data preprocessing, supervised learning, and structured analysis to improve prediction quality and decision support.",
-      "stack": [
-        "Python",
-        "Machine Learning",
-        "KNIME",
-        "Data Processing",
-        "MySQL"
-      ],
-      "media": {
-        "type": "image",
-        "src": "",
-        "alt": "Flight Delay Prediction Model project media"
-      },
-      "githubUrl": "https://github.com/your-username/flight-delay-prediction",
-      "demoUrl": "#flight-delay-prediction-demo"
     }
   ],
   "experience": [
@@ -225,16 +183,6 @@
         "Managed PLC and HMI deployment across multiple sites, ensuring accurate configuration and alignment with project specifications.",
         "Coordinated on-site teams to resolve real-time technical issues, reduce downtime, and support successful project delivery."
       ]
-    },
-    {
-      "company": "Selangor Human Resource Development Centre",
-      "role": "Level UP Malaysia x Cognizant Trainee",
-      "period": "Sep 2024 - Dec 2024",
-      "bullets": [
-        "Preprocessed and transformed datasets using KNIME and Python to improve data quality for AI and ML workflows.",
-        "Applied supervised and unsupervised machine learning techniques for predictive modeling, clustering, and analytics use cases.",
-        "Designed and managed MySQL databases to support structured storage and retrieval for analytics workflows."
-      ]
     }
   ],
   "certifications": [
@@ -249,6 +197,6 @@
     "phone": "012-5035912",
     "linkedin": "http://linkedin.com/in/izzat-farhan-871279253",
     "github": "https://github.com/your-username",
-    "summary": "Open to IT, DevOps, Cloud, AI, Software Engineering, and IT-OT integration opportunities across Malaysia and Singapore."
+    "summary": "Open to AI Automation, IT-OT integration, Electrical Automation, Industrial IoT, and intelligent workflow automation opportunities across Malaysia and Singapore."
   }
 }
