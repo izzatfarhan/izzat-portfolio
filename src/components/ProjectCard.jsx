@@ -3,6 +3,14 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Image } from "lucide-react";
 import SkillBadge from "./SkillBadge";
 
+function getAssetPath(src) {
+  if (!src || src.startsWith("http") || src.startsWith("data:")) {
+    return src;
+  }
+
+  return `${import.meta.env.BASE_URL}${src.replace(/^\//, "")}`;
+}
+
 export default function ProjectCard({ project }) {
   const mediaItems = project.mediaItems?.length
     ? project.mediaItems
@@ -35,7 +43,7 @@ export default function ProjectCard({ project }) {
             <AnimatePresence mode="wait">
               <motion.img
                 key={activeMedia.src}
-                src={activeMedia.src}
+                src={getAssetPath(activeMedia.src)}
                 alt={activeMedia.alt || `${project.title} media ${activeMediaIndex + 1}`}
                 className={`absolute inset-0 h-full w-full ${activeMedia.fit === "contain" ? "object-contain" : "object-cover"}`}
                 loading={activeMediaIndex === 0 ? "eager" : "lazy"}
