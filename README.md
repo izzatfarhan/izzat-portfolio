@@ -135,18 +135,48 @@ The design uses a warm engineering-paper background, copper amber accents, elect
 
 ## Deployment
 
-This project can be deployed easily to Vercel or Netlify.
+This project is configured for GitHub Pages deployment using GitHub Actions.
 
-Build command:
+The workflow lives in:
+
+```text
+.github/workflows/deploy.yml
+```
+
+It runs automatically when changes are pushed to the `main` branch:
+
+```text
+push to main -> npm ci -> npm run build -> deploy dist to GitHub Pages
+```
+
+For GitHub Pages, make sure the repository settings use:
+
+```text
+Settings -> Pages -> Source: GitHub Actions
+```
+
+Local build command:
 
 ```bash
 npm run build
 ```
 
-Output directory:
+Production output directory:
 
 ```text
 dist
+```
+
+The Vite base path is configured in `vite.config.js`:
+
+```js
+base: "/izzat-portfolio/"
+```
+
+This is required because the site is served from:
+
+```text
+https://izzatfarhan.github.io/izzat-portfolio/
 ```
 
 ## Future Improvements
