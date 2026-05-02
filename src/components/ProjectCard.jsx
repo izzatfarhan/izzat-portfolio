@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { Image } from "lucide-react";
 import SkillBadge from "./SkillBadge";
 
@@ -19,7 +19,10 @@ export default function ProjectCard({ project }) {
       : [];
   const hasMedia = mediaItems.length > 0;
   const [activeMediaIndex, setActiveMediaIndex] = useState(0);
-  const activeMedia = mediaItems[activeMediaIndex];
+
+  useEffect(() => {
+    setActiveMediaIndex(0);
+  }, [project.title]);
 
   useEffect(() => {
     if (mediaItems.length <= 1) return undefined;
@@ -38,21 +41,24 @@ export default function ProjectCard({ project }) {
       className="card grid gap-6 overflow-hidden p-0 md:grid-cols-[minmax(260px,0.9fr)_1.4fr] md:items-stretch"
     >
       <div className="relative min-h-[220px] overflow-hidden border-b border-[var(--color-border)] bg-[var(--color-surface-2)] md:border-b-0 md:border-r">
-        {hasMedia && activeMedia ? (
+        {hasMedia ? (
           <div className="relative h-full min-h-[220px] overflow-hidden bg-[var(--color-surface-2)]">
-            <AnimatePresence mode="wait">
+            {mediaItems.map((media, index) => (
               <motion.img
-                key={activeMedia.src}
-                src={getAssetPath(activeMedia.src)}
-                alt={activeMedia.alt || `${project.title} media ${activeMediaIndex + 1}`}
-                className={`absolute inset-0 h-full w-full ${activeMedia.fit === "contain" ? "object-contain" : "object-cover"}`}
-                loading={activeMediaIndex === 0 ? "eager" : "lazy"}
-                initial={{ opacity: 0, scale: 1.015 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.995 }}
-                transition={{ duration: 0.65, ease: "easeInOut" }}
+                key={media.src}
+                src={getAssetPath(media.src)}
+                alt={media.alt || `${project.title} media ${index + 1}`}
+                className={`absolute inset-0 h-full w-full ${media.fit === "contain" ? "object-contain" : "object-cover"}`}
+                loading={index === 0 ? "eager" : "lazy"}
+                initial={false}
+                animate={{
+                  opacity: index === activeMediaIndex ? 1 : 0,
+                  scale: index === activeMediaIndex ? 1 : 1.015,
+                }}
+                transition={{ duration: 1.05, ease: [0.4, 0, 0.2, 1] }}
+                style={{ willChange: "opacity, transform" }}
               />
-            </AnimatePresence>
+            ))}
           </div>
         ) : null}
 
