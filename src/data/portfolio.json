@@ -1,6 +1,6 @@
 {
   "hero": {
-    "name": "Muhammad Izzat Farhan Rahimi",
+    "name": "Muhammad Izzat Farhan",
     "role": "Electrical & Automation Engineer | IT-OT Integration | Cloud, DevOps & AI",
     "headline": "Engineering reliable industrial and digital systems across automation, cloud infrastructure, DevOps, and AI.",
     "summary": "Electrical and Automation Engineer with hands-on experience in industrial control systems, IT-OT integration, cloud infrastructure, data workflows, and automation. I bring production-focused engineering discipline into software, DevOps, cloud, and AI engineering roles.",
@@ -44,22 +44,52 @@
     {
       "category": "Programming",
       "icon": "Code2",
-      "items": ["Python", "JavaScript", "TypeScript", "SQL", "REST APIs", "FastAPI"]
+      "items": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "REST APIs",
+        "FastAPI"
+      ]
     },
     {
       "category": "Cloud & DevOps",
       "icon": "Cloud",
-      "items": ["AWS EC2", "Terraform", "Docker", "GitHub Actions", "Linux", "Bash"]
+      "items": [
+        "AWS EC2",
+        "Terraform",
+        "Docker",
+        "GitHub Actions",
+        "Linux",
+        "Bash"
+      ]
     },
     {
       "category": "Automation & IT-OT",
       "icon": "Cpu",
-      "items": ["TIA Portal", "PLC/HMI", "SCADA", "Node-RED", "MQTT", "Industrial IoT"]
+      "items": [
+        "TIA Portal",
+        "PLC/HMI",
+        "SCADA",
+        "Node-RED",
+        "MQTT",
+        "Industrial IoT"
+      ]
     },
     {
       "category": "Tools & Data",
       "icon": "ServerCog",
-      "items": ["MySQL", "PostgreSQL", "InfluxDB", "Prometheus", "Grafana", "Power BI", "KNIME", "n8n"]
+      "items": [
+        "MySQL",
+        "PostgreSQL",
+        "InfluxDB",
+        "Prometheus",
+        "Grafana",
+        "Power BI",
+        "KNIME",
+        "n8n"
+      ]
     }
   ],
   "projects": [
@@ -67,7 +97,21 @@
       "title": "Production Cloud Infrastructure",
       "summary": "Built and deployed a cloud-based FastAPI application on AWS using Terraform, Docker, GitHub Actions, Prometheus, Grafana, and Linux automation.",
       "impact": "Improved deployment repeatability, infrastructure visibility, and service reliability through CI/CD, monitoring, and self-recovery scripts.",
-      "stack": ["AWS EC2", "Terraform", "Docker", "FastAPI", "GitHub Actions", "Prometheus", "Grafana", "Linux"],
+      "stack": [
+        "AWS EC2",
+        "Terraform",
+        "Docker",
+        "FastAPI",
+        "GitHub Actions",
+        "Prometheus",
+        "Grafana",
+        "Linux"
+      ],
+      "media": {
+        "type": "image",
+        "src": "",
+        "alt": "Production Cloud Infrastructure project media"
+      },
       "githubUrl": "https://github.com/your-username/production-cloud-infrastructure",
       "demoUrl": "#production-cloud-infrastructure-demo"
     },
@@ -75,7 +119,19 @@
       "title": "AI Automation Agent System",
       "summary": "Built AI-driven automation workflows using n8n, LLM APIs, webhooks, and RAG techniques for multi-step business process automation.",
       "impact": "Enabled context-aware task execution by integrating APIs, retrieval workflows, and automation logic into a reusable AI workflow system.",
-      "stack": ["n8n", "LLM APIs", "RAG", "Webhooks", "REST APIs", "Automation"],
+      "stack": [
+        "n8n",
+        "LLM APIs",
+        "RAG",
+        "Webhooks",
+        "REST APIs",
+        "Automation"
+      ],
+      "media": {
+        "type": "image",
+        "src": "",
+        "alt": "AI Automation Agent System project media"
+      },
       "githubUrl": "https://github.com/your-username/ai-automation-agent-system",
       "demoUrl": "#ai-automation-agent-demo"
     },
@@ -83,7 +139,19 @@
       "title": "IoT Smart Distribution Board",
       "summary": "Developed an IoT-based smart distribution board for real-time monitoring and remote control of electrical systems.",
       "impact": "Awarded 1st Runner-Up at UPNM Engineering Open Day 2024 and reduced manual intervention through cloud-connected monitoring.",
-      "stack": ["IoT", "MQTT", "Sensors", "Cloud", "Dashboard", "Electrical Design"],
+      "stack": [
+        "IoT",
+        "MQTT",
+        "Sensors",
+        "Cloud",
+        "Dashboard",
+        "Electrical Design"
+      ],
+      "media": {
+        "type": "image",
+        "src": "",
+        "alt": "IoT Smart Distribution Board project media"
+      },
       "githubUrl": "https://github.com/your-username/iot-smart-distribution-board",
       "demoUrl": "#iot-smart-distribution-board-demo"
     },
@@ -91,7 +159,19 @@
       "title": "Industrial Automation Projects",
       "summary": "Developed and commissioned PLC/HMI control systems for conveyor automation, machine integration, and manufacturing operations.",
       "impact": "Improved material flow efficiency by 80%, reduced cycle time by 44%, and restored operations within 24 hours during control system issues.",
-      "stack": ["Siemens TIA Portal", "PLC", "HMI", "SCADA", "Sensors", "Industrial Automation"],
+      "stack": [
+        "Siemens TIA Portal",
+        "PLC",
+        "HMI",
+        "SCADA",
+        "Sensors",
+        "Industrial Automation"
+      ],
+      "media": {
+        "type": "image",
+        "src": "",
+        "alt": "Industrial Automation Projects media"
+      },
       "githubUrl": "https://github.com/your-username/industrial-automation-projects",
       "demoUrl": "#industrial-automation-projects-demo"
     },
@@ -99,7 +179,18 @@
       "title": "Flight Delay Prediction Model",
       "summary": "Developed a machine learning model using Python to predict flight delays from weather and operational datasets.",
       "impact": "Applied data preprocessing, supervised learning, and structured analysis to improve prediction quality and decision support.",
-      "stack": ["Python", "Machine Learning", "KNIME", "Data Processing", "MySQL"],
+      "stack": [
+        "Python",
+        "Machine Learning",
+        "KNIME",
+        "Data Processing",
+        "MySQL"
+      ],
+      "media": {
+        "type": "image",
+        "src": "",
+        "alt": "Flight Delay Prediction Model project media"
+      },
       "githubUrl": "https://github.com/your-username/flight-delay-prediction",
       "demoUrl": "#flight-delay-prediction-demo"
     }

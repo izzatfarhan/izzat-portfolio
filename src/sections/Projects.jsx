@@ -8,7 +8,7 @@ export default function Projects({ projects }) {
       eyebrow="Featured Projects"
       title="Selected work demonstrating infrastructure, backend, monitoring, and automation experience."
     >
-      <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+      <div className="grid gap-5">
         {projects.map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}
