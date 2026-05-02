@@ -4,7 +4,11 @@ import Section from "./Section";
 
 export default function Contact({ contact }) {
   return (
-    <Section id="contact" eyebrow="Contact" title="Open to AI automation, IT-OT, and electrical automation opportunities.">
+    <Section
+      id="contact"
+      eyebrow="Contact"
+      title="Open to AI automation, IT-OT, electrical system and automation opportunities."
+    >
       <div className="card">
         <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
           <p className="max-w-2xl leading-8 text-[var(--color-ink-muted)]">
@@ -14,10 +18,10 @@ export default function Contact({ contact }) {
             <Button href={`mailto:${contact.email}`}>
               Email <Mail size={18} />
             </Button>
-            <Button href={contact.linkedin} variant="secondary">
+            <Button href={contact.linkedin} variant="secondary" external>
               LinkedIn <BriefcaseBusiness size={18} />
             </Button>
-            <Button href={contact.github} variant="secondary">
+            <Button href={contact.github} variant="secondary" external>
               GitHub <Code2 size={18} />
             </Button>
           </div>

@@ -8,7 +8,7 @@ export default function App() {
     <main className="blueprint-grid min-h-screen overflow-hidden text-[var(--color-ink)]">
       <Navbar name={portfolio.hero.name} />
       <Home portfolio={portfolio} />
-      <Footer name={portfolio.hero.name} tagline={portfolio.contact.summary} />
+      <Footer name={portfolio.hero.name} />
     </main>
   );
 }
