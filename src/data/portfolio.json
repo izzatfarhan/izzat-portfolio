@@ -98,6 +98,7 @@
       "impact": "Enabled context-aware task execution by integrating APIs, retrieval workflows, and automation logic into a reusable AI workflow system.",
       "stack": [
         "n8n",
+        "UiPath",
         "LLM APIs",
         "RAG",
         "Webhooks",
@@ -129,6 +130,38 @@
         "src": "",
         "alt": "IoT Smart Distribution Board project media"
       },
+      "mediaItems": [
+        {
+          "type": "image",
+          "src": "/media/projects/iot-smart-distribution-board/photo1.jpg",
+          "alt": "IoT Smart Distribution Board project photo 1"
+        },
+        {
+          "type": "image",
+          "src": "/media/projects/iot-smart-distribution-board/photo2.jpg",
+          "alt": "IoT Smart Distribution Board project photo 2"
+        },
+        {
+          "type": "image",
+          "src": "/media/projects/iot-smart-distribution-board/photo3.jpg",
+          "alt": "IoT Smart Distribution Board project photo 3"
+        },
+        {
+          "type": "image",
+          "src": "/media/projects/iot-smart-distribution-board/photo4.jpg",
+          "alt": "IoT Smart Distribution Board project photo 4"
+        },
+        {
+          "type": "image",
+          "src": "/media/projects/iot-smart-distribution-board/photo5.jpg",
+          "alt": "IoT Smart Distribution Board project photo 5"
+        },
+        {
+          "type": "image",
+          "src": "/media/projects/iot-smart-distribution-board/photo7.jpg",
+          "alt": "IoT Smart Distribution Board project photo 7"
+        }
+      ],
       "githubUrl": "https://github.com/your-username/iot-smart-distribution-board",
       "demoUrl": "#iot-smart-distribution-board-demo"
     },
@@ -149,6 +182,43 @@
         "src": "",
         "alt": "Industrial Automation Projects media"
       },
+      "mediaItems": [
+        {
+          "type": "image",
+          "src": "/media/projects/industrial-automation-projects/photo1.jpg",
+          "alt": "Industrial automation project photo 1"
+        },
+        {
+          "type": "image",
+          "src": "/media/projects/industrial-automation-projects/photo2.jpg",
+          "alt": "Industrial automation project photo 2"
+        },
+        {
+          "type": "image",
+          "src": "/media/projects/industrial-automation-projects/photo3.jpg",
+          "alt": "Industrial automation project photo 3"
+        },
+        {
+          "type": "image",
+          "src": "/media/projects/industrial-automation-projects/photo5.jpg",
+          "alt": "Industrial automation project photo 5"
+        },
+        {
+          "type": "image",
+          "src": "/media/projects/industrial-automation-projects/photo6.jpg",
+          "alt": "Industrial automation project photo 6"
+        },
+        {
+          "type": "image",
+          "src": "/media/projects/industrial-automation-projects/photo7.jpg",
+          "alt": "Industrial automation project photo 7"
+        },
+        {
+          "type": "image",
+          "src": "/media/projects/industrial-automation-projects/photo8.jpg",
+          "alt": "Industrial automation project photo 8"
+        }
+      ],
       "githubUrl": "https://github.com/your-username/industrial-automation-projects",
       "demoUrl": "#industrial-automation-projects-demo"
     }

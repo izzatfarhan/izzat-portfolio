@@ -3,7 +3,7 @@ import { navItems } from "../constants/links";
 export default function Navbar({ name = "Izzat Farhan" }) {
   return (
     <nav className="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[color:var(--color-base)]/90 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+      <div className="mx-auto flex w-full max-w-[1440px] items-center justify-between px-5 py-4 sm:px-8">
         <a href="#hero" className="font-mono text-xs font-medium uppercase tracking-[0.12em] text-[var(--color-ink)]">
           {name}
         </a>
